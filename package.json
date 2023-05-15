@@ -1,0 +1,21 @@
+{
+  "name": "amqp-client-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "publisher-amqp-client": "node usingAmqp-client_lib/publisher.js",
+    "consumer-amqp-client": "node usingAmqp-client_lib/consumer.js",
+    "publisher-amqplib": "node usingAmqplib_lib/publisher.js",
+    "consumer-amqplib": "node usingAmqplib_lib/consumer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudamqp/amqp-client": "^2.1.1",
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3"
+  }
+}
